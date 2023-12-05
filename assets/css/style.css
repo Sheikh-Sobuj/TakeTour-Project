@@ -475,18 +475,34 @@ img {
 }
 
 /*---media queries----*/
-@media (max-width: 1200px) {
+@media (max-width: 1600px) {
     .banner-img {
-        padding-right: 30px;
+        padding-left: 150px;
+    }
+    .banner-img img {
+        width: 500px;
+        height: 700px;
     }
 
+    .banner-img img {
+        margin-top: 400px;
+        height: initial;
+    }
+}
+@media (max-width: 1200px) {
+    .banner-img {
+        padding-right: 100px;
+    }
+    .banner-img {
+        padding-left: 0;
+    }
     .banner-img img {
         width: 400px;
         height: 700px;
     }
 
     .banner-img img {
-        margin-top: 570px;
+        margin-top: 450px;
         height: initial;
     }
 }
